@@ -36,7 +36,7 @@ h1 i {
 
 .quote-container {
     background: linear-gradient(135deg, #3498db, #2980b9);
-    padding: 20px;
+    padding: 25px;
     border-radius: 12px;
     margin-bottom: 25px;
     color: white;
@@ -45,22 +45,37 @@ h1 i {
 }
 
 .quote-icon {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.quote-icon-end {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
 
 .quote {
     font-style: italic;
-    margin-bottom: 10px;
+    margin: 20px 0;
     line-height: 1.6;
-    font-size: 1.1em;
+    font-size: 1.4em;
+    padding: 0 30px;
+    text-align: center;
 }
 
 .author {
     text-align: right;
-    font-size: 0.9em;
+    font-size: 1.1em;
     opacity: 0.9;
+    margin-top: 15px;
+    padding-right: 30px;
 }
 
 .todo-input {
